@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Canberra",
     scale: "C",
   },
   clock: {
@@ -20,7 +20,7 @@ const default_configuration = {
   additionalClocks: [
     {
       label: "UA",
-      timezone: "Europe/Kyiv",
+      timezone: "Australia/Sydney",
       format: "h:i",
       icon_color: palette.peach,
     },
@@ -218,7 +218,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/banner_01.gif",
       categories: [
         {
           name: "social media",
